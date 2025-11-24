@@ -6,7 +6,11 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        
+        String dataStr = loadFile("syntaxeval\\customCode.txt");
+
+        dataStr = dataStr.replace("\n", "");
+
+        System.out.println(dataStr);
     }
 
     public static String loadFile(String path) {

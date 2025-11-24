@@ -1,0 +1,21 @@
+using { "stdlib.txt" };
+
+class PlayerScript {
+    float velocity := 10.0f;
+
+    func entry() -> void {
+        println("Hello, World!");
+    }
+
+    func onStart() -> void {
+        println("Hello, World!");
+    }
+
+    func onUpdate(float deltaTime) -> void {
+        println("Hello, World!");
+    }
+
+    func onEnd() -> void {
+        println("Hello, World!");
+    }
+}
